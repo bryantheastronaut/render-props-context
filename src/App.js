@@ -15,8 +15,8 @@ class App extends Component {
     };
   }
 
-  showDetails = (id) => {
-    this.setState({ modalIsOpen: true, currentlyViewingItem: id });
+  showDetails = (item) => {
+    this.setState({ modalIsOpen: true, currentlyViewingItem: item });
   }
 
   render() {
