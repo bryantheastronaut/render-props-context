@@ -1,0 +1,64 @@
+body {
+	font-family: sans-serif;
+}
+
+.storeTitle {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.itemsList {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	padding: 15px 25px;
+}
+
+.singleItemContainer {
+	width: 450px;
+	margin: 10px;
+	border: 1px solid #c9c9c9;
+	flex: 1;
+	padding: 10px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+.singleItemContainer:hover {
+	background-color: #f9f9f9;
+	box-shadow: 2px 2px 2px #ddd;
+	border-color: #f1f1f1;
+}
+
+.detailsModal {
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+
+}
+
+.modalContent {
+  flex: 1;
+  padding-bottom: 50px;
+  overflow: auto;
+}
+
+.modalFooter {
+  align-self: center;
+}
+
+.closeButton {
+  border: 1px solid #0074d9;
+  background-color: #1185ea;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.closeButton:hover {
+  background-color: #0074d9;
+  cursor: pointer;
+}
