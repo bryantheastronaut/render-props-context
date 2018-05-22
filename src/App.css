@@ -35,13 +35,25 @@ body {
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
+}
 
+.loadingText {
+	text-align: center;
+	color: #999;
+	padding-top: 30px;
 }
 
 .modalContent {
   flex: 1;
   padding-bottom: 50px;
-  overflow: auto;
+	overflow: auto;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.modalContent img {
+	align-self: center;
+	margin-top: 10px;
 }
 
 .modalFooter {
