@@ -32,14 +32,13 @@ class App extends Component {
     return (
       <Fragment>
         <DataFetcher data={SAMPLE_DATA}>
-          {({ loading, data }) => {
-            return loading
-              ? <p className="loadingText">Loading...</p>
-              : <FrontPage
+          {({ loading, data }) => (
+              <FrontPage
+                loading={loading}
                 data={data}
                 showDetails={this.showDetails}
               />
-          }}
+          )}
         </DataFetcher>
         <Modal
           isOpen={this.state.modalIsOpen}
