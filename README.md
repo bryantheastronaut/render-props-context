@@ -1,10 +1,10 @@
 # Render Props and You!
 
-Hi all! I'm back to tell ya'll about a new thing I've been playing with. If you keep up with the React world, you've probably heard some [very]()[well known]() [people]() talking about Render Props. Today we will dive into them a bit and see how they can make your components simpler and more reusable!
+Hi all! I'm back to tell ya'll about a new thing I've been playing with. If you keep up with the React world, you've probably heard some [very](https://blog.kentcdodds.com/when-to-not-use-render-props-5397bbeff746) [well known](https://cdb.reacttraining.com/use-a-render-prop-50de598f11ce) [people](https://medium.com/workshop-me/render-props-react-createcontext-but-how-9c8e457a90e3) talking about Render Props. Today we will dive into them a bit and see how they can make your components simpler and more reusable!
 
 ## WTF is a render prop?
 
-A render prop is exactly what it sounds like: a prop you pass to a component that tells it what (and/or how) to render. There are a bunch of libraries that take advantage of this pattern (react-motion, react-router, even React's new [context api]()) use them.
+A render prop is exactly what it sounds like: a prop you pass to a component that tells it what (and/or how) to render. There are a bunch of libraries that take advantage of this pattern ([react-motion](https://github.com/chenglou/react-motion), [react-router](https://github.com/ReactTraining/react-router), even React's new [Context API](https://reactjs.org/docs/context.html)) use them.
 
 ## WTF does it look like?
 
@@ -199,8 +199,6 @@ export const SAMPLE_DATA = [
 ];
 
 ```
-
-And some styles to make it look a little nicer:
 
 ```
 // src/App.css
